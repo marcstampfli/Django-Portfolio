@@ -3,7 +3,7 @@ from singlemodeladmin import SingleModelAdmin
 from .models import Profile, Interest
 
 
-class ProfileAdmin(SingleModelAdmin):
+class ProfileAdmin(admin.ModelAdmin):
     list_display = ['name']
 
 
