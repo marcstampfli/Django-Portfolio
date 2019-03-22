@@ -96,7 +96,7 @@ class Interest(models.Model):
         blank=True
     )
     photo = models.ImageField(
-        upload_to='static/about/images/interest',
+        upload_to='static/images/about/interest',
         blank=True,
         null=True
     )
