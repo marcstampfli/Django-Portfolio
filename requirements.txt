@@ -4,3 +4,4 @@ django-heroku
 django-columns
 whitenoise
 Pillow
+singlemodeladmin
