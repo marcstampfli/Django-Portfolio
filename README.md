@@ -1,4 +1,3 @@
 # Marc Stampfli
-## Web Developer
-### Personal Portfolio Website
+# Personal Portfolio Website
 My personal portfolio website built with Python/Django
