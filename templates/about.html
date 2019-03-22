@@ -121,7 +121,7 @@
                                             <p>{{ employment.description }}</p>
                                         </div>
                                         <!-- Single Experience Ends -->
-                                        <span class="separator"></span>
+                                        {% if not forloop.last %}<span class="separator"></span>{% endif %}
                                         {% empty %}
                                         <p>There are no Employments</p>
                                         {% endfor %}
@@ -150,7 +150,7 @@
                                             <p>{{ education.description }}</p>
                                         </div>
                                         <!-- Single Education Ends -->
-                                        <span class="separator"></span>
+                                        {% if not forloop.last %}<span class="separator"></span>{% endif %}
                                         {% empty %}
                                         <p>There are no educations</p>
                                         {% endfor %}
