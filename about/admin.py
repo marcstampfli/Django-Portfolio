@@ -1,8 +1,9 @@
 from django.contrib import admin
+from singlemodeladmin import SingleModelAdmin
 from .models import Profile, Interest
 
 
-class ProfileAdmin(admin.ModelAdmin):
+class ProfileAdmin(SingleModelAdmin):
     list_display = ['name']
 
 
