@@ -32,6 +32,7 @@ class Project(models.Model):
         ('App', 'App'),
         ('Flyer', 'Flyer'),
         ('Business Card', 'Business Card'),
+        ('Banner', 'Banner'),
     )
     type = models.CharField(
         max_length=13,
